@@ -61,7 +61,7 @@ function playToFive() {
 
     while (numGames < 5)
     {
-      var move;
+      var move = null;
       var winner = getWinner(getPlayerMove(move), getComputerMove(move));
       if (winner === "player")
       {
@@ -85,7 +85,7 @@ function playToX(x)
 
   while(numGames < x)
   {
-    var move;
+    var move = null;
     var winner = getWinner(getPlayerMove(move), getComputerMove(move));
     if (winner === "player")
     {
